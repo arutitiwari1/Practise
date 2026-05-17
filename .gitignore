@@ -1,0 +1,31 @@
+# Compiled output
+*.o
+*.obj
+*.out
+*.exe
+
+# Build folders
+build/
+bin/
+cmake-build-*/
+Debug/
+Release/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Logs
+*.log
+
+# Mac / Linux system files
+.DS_Store
+*.swp
