@@ -3,7 +3,9 @@ using namespace std;
 int main(){
     int n;
     cout<<"enter no:";
-    cin>>n;
+    cin>>n;                          //print 123
+                                       //   456
+                                          //789
     int num=1;
     for( int i=1;i<=n;i++)
     {
@@ -15,6 +17,6 @@ int main(){
         cout<<endl;
 
         
-    } cout<< "after pattern:"<< num<<endl;
+    } cout<< "after pattern:"<< num<<endl;      //print 10
     return 0;
 }
