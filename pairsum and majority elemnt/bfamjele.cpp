@@ -1,4 +1,4 @@
-#include<iostream>//brute force approach of maj elemrnt 
+#include<iostream>//brute force approach of maj element 
 #include<vector>
 #include<climits>
 using namespace std;
