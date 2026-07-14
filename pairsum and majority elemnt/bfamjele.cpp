@@ -1,4 +1,4 @@
-#include<iostream>//brute force approach of maj element 
+#include<iostream>//brute force approach of majority element 
 #include<vector>
 #include<climits>
 using namespace std;
