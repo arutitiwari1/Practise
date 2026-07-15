@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int decToBinary(int decNum){  //convert decimal to binary print 1 to 10 all
+int decToBinary(int decNum){  //convert decimal to binary print 1 to 10 all//
  int ans=0;
  int pow=1;
     while (decNum>0){
