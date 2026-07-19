@@ -1,4 +1,4 @@
-#include<iostream>
+#include<iostream>//brute force approach
 #include<vector>
 #include<climits>
 using namespace std;
