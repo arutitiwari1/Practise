@@ -1,5 +1,5 @@
 #include<iostream>// tc=O(n) sc=O(1) lc=238
-#include<vector>// ooptimal app product of array excpt itself
+#include<vector>// ooptimal app product of array excpt itself....
 #include<climits>
 using namespace std;
 vector<int>productExceptitself(vector<int>&nums){
