@@ -6,7 +6,7 @@ int main(){
     int a=10;
     int *ptr=&a;
     cout<<ptr<<endl;//0x61fef4
-    ptr++;//+4
-    cout<<ptr<<endl;//0x61fef8 change of 8
+    ptr--;//-4
+    cout<<ptr<<endl;//0x61fef0
     return 0;
 }
