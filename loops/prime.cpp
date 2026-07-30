@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream>//prime no check
 using namespace std;
 int main(){
     int n;
