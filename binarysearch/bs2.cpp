@@ -1,4 +1,4 @@
-#include<iostream>
+#include<iostream>//leetcode =33 rotated sorted array
 #include<climits>
 #include<vector>
 using namespace std;
@@ -15,7 +15,7 @@ int search(vector<int>&A , int tar){
             }else{
                 st=mid+1;
             }
-            else{
+        }else{
                 //right sorted
                 if(A[mid]<=tar&&tar<=A[end]){
                     st=mid+1;
@@ -23,12 +23,12 @@ int search(vector<int>&A , int tar){
                     end=mid-1;
                 }
             }
+        }return-1;
         }
-    }return -1;
-}
+    
+
 int main(){
-    vector<int>A={3,4,5,6,7,0,1,2};
-    int tar=0;
+    vector<int>A={3,4,5,6,7,0,1,2};//5
     cout<<search(A,0)<<endl;
     return 0;
 }
