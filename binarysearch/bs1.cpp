@@ -6,7 +6,7 @@ int binarySearch(vector<int>arr,int tar){
     while(st<=end){
         //2nd half
         int mid=st+(end-st)/2;
-        if (tar>arr[mid]){//1st half
+        if (tar>arr[mid]){//1st half...
             st=mid+1;
         }  else if(tar<arr[mid]) {
             end=mid-1;
