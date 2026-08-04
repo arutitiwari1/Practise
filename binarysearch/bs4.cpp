@@ -30,6 +30,6 @@ int singleNonDuplicate(vector<int>&A){
 }
 int main(){
     vector<int>A={1,1,2,3,3,4,4,8,8};
-    cout<<"unique element:"<<singleNonDuplicate(A)<<endl;//2 is index of unique element
+    cout<<"unique element:"<<singleNonDuplicate(A)<<endl;//2 is the index of unique element
     return 0;
 }
