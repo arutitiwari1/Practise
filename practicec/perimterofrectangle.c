@@ -1,5 +1,5 @@
 #include<stdio.h>
-//area of circle
+//perimeter of rectangle
 int main(){
     int a,b;
     printf("enter a:");//4
